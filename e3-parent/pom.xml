@@ -16,6 +16,25 @@
      </plugin>
    </plugins>
 </build>
+
+<dependencyManagement>
+	<dependencies>
+		<!-- pojo工程的依赖 -->
+		<dependency>
+			<groupId>com.fenqing</groupId>
+		    <artifactId>e3-manager-pojo</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<!-- mybatis依赖 -->
+		<dependency>
+		    <groupId>org.mybatis</groupId>
+		    <artifactId>mybatis</artifactId>
+		    <version>3.4.6</version>
+		</dependency>
+		
+	</dependencies>
+</dependencyManagement>
   
   
 </project>
